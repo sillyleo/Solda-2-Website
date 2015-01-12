@@ -8,6 +8,10 @@
 
 $content-width: 690px;
 $page-margin: 60px;
+$channel-width: 135px;
+$channel-height: 150px;
+$channel-icon-height: 75px;
+$gray: #888;
 
 header, section {
 	width: $content-width;
@@ -16,27 +20,87 @@ header, section {
 
 body {
 	background: #F7F7F7;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+header {
+	nav {
+		font-size: 13px;
+		a {
+			color: $gray;
+			letter-spacing: 2px;
+			line-height: 23px;
+			float: right;
+			display: block;
+			margin-left: 36px;
+			text-decoration: none;
+			&:hover {
+				color: darken($gray, 30%);
+			}
+		}
+	}
 }
 
 section.channels {
 	width: 100%;
-	height: 146px;
+	height: $channel-height;
 	background: white;
 	border-top: 1px solid #eaeaea;
 	border-bottom: 1px solid #eaeaea;
 	overflow-x: auto;
 	overflow-y: hidden;
+	white-space: nowrap;
+  box-sizing: border-box; 
 	div.channel-content {
-		display: table;
+		display: block;
 		height: 100%;
-		width: auto;
-	}
-	div.block {
-		background: blue;
 		box-sizing: border-box;
-		border: 5px solid red;
+	}
+	div.channel {
+		&:hover {
+			span {
+				color: darken($gray, 30%);
+			} 
+		}
+		&.current {
+			p.label {
+				font-weight: bold;
+				span {
+					color: #F75E50;
+					border-bottom: 2px #F75E50 solid;
+					padding-bottom: 2px;
+					font-weight: bold;
+				}
+			}
+		}
 		height: 100%;
-		width: 160px;
-		display: table-cell;
+		width: $channel-width;
+		display: inline-block;
+		text-align: center;
+		img {
+			cursor: pointer;
+			margin-top: 24px;
+			height: $channel-icon-height;
+		}
+		p.label {
+			cursor: pointer;
+			font-size: 12px;
+			padding-top: 10px;
+			color: lighten($gray, 10%);
+		}
 	}
 }
+
+section.browse-type {
+	text-align: center;
+	section-tab {
+		background: white;
+	}
+}
+
+
+
+
+
+
