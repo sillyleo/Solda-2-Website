@@ -12,6 +12,7 @@ $channel-width: 135px;
 $channel-height: 150px;
 $channel-icon-height: 75px;
 $gray: #888;
+$base-color: #F75E50;
 
 header, section {
 	width: $content-width;
@@ -43,19 +44,50 @@ header {
 }
 
 section.channels {
+	.scroller {
+		z-index: 1;
+		height: $channel-height - 2;
+		display: block;
+		width: 40px;
+		text-align: center;
+		opacity: 0.7;
+		background: rgba(255,255,255,0.4);
+		cursor: pointer;
+		&:hover {
+			opacity: 1;
+			background: rgba(255,255,255,0.7);
+		}
+		img {
+			margin-top: ( $channel-height - 30 ) / 2 ;
+		}
+		&.left {
+			left: 0;
+			position: absolute;
+			top: 0;
+		}
+		&.right {
+			right: 0;
+			position: absolute;
+			top: 0;
+		}
+	}
+	position: relative;
 	width: 100%;
 	height: $channel-height;
 	background: white;
 	border-top: 1px solid #eaeaea;
 	border-bottom: 1px solid #eaeaea;
-	overflow-x: auto;
-	overflow-y: hidden;
-	white-space: nowrap;
   box-sizing: border-box; 
 	div.channel-content {
 		display: block;
 		height: 100%;
 		box-sizing: border-box;
+		-webkit-overflow-scrolling: touch;
+		overflow-x: auto;
+		overflow-y: hidden;
+		white-space: nowrap;
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 	div.channel {
 		&:hover {
@@ -94,12 +126,37 @@ section.channels {
 
 section.browse-type {
 	text-align: center;
-	section-tab {
-		background: white;
+	.section-tab {
+		display: inline-block;
+		border-radius: 4px;
+		border: 2px solid $base-color;
+		span {
+			display: inline-block;
+			cursor: pointer;
+			width: 115px;
+			height: 34px;
+			line-height: 34px;
+			font-weight: bold;
+			font-size: 12px;
+			color: $base-color;
+			small {
+				opacity: 0.6;
+			}
+			&.current {
+				background: $base-color;
+				color: white;
+			}
+		}
 	}
 }
 
+section.products {
+	
+}
 
+section.events {
+	
+}
 
 
 

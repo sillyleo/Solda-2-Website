@@ -4,24 +4,24 @@
   padding: 0;
 }
 
-/* line 16, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 header, section {
   width: 690px;
   margin: 60px auto;
 }
 
-/* line 21, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 body {
   background: #F7F7F7;
   font-family: sans-serif;
   font-size: 14px;
 }
 
-/* line 28, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 header nav {
   font-size: 13px;
 }
-/* line 30, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 header nav a {
   color: #888;
   letter-spacing: 2px;
@@ -31,58 +31,94 @@ header nav a {
   margin-left: 36px;
   text-decoration: none;
 }
-/* line 38, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 header nav a:hover {
   color: #3c3c3c;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 section.channels {
+  position: relative;
   width: 100%;
   height: 150px;
   background: white;
   border-top: 1px solid #eaeaea;
   border-bottom: 1px solid #eaeaea;
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
   box-sizing: border-box;
 }
-/* line 55, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
+section.channels .scroller {
+  z-index: 1;
+  height: 148px;
+  display: block;
+  width: 40px;
+  text-align: center;
+  opacity: 0.7;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+/* line 56, ../sass/style.scss */
+section.channels .scroller:hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.7);
+}
+/* line 60, ../sass/style.scss */
+section.channels .scroller img {
+  margin-top: 60px;
+}
+/* line 63, ../sass/style.scss */
+section.channels .scroller.left {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+/* line 68, ../sass/style.scss */
+section.channels .scroller.right {
+  right: 0;
+  position: absolute;
+  top: 0;
+}
+/* line 81, ../sass/style.scss */
 section.channels div.channel-content {
   display: block;
   height: 100%;
   box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-left: 40px;
+  padding-right: 40px;
 }
-/* line 60, ../sass/style.scss */
+/* line 92, ../sass/style.scss */
 section.channels div.channel {
   height: 100%;
   width: 135px;
   display: inline-block;
   text-align: center;
 }
-/* line 62, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 section.channels div.channel:hover span {
   color: #3c3c3c;
 }
-/* line 67, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 section.channels div.channel.current p.label {
   font-weight: bold;
 }
-/* line 69, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 section.channels div.channel.current p.label span {
   color: #F75E50;
   border-bottom: 2px #F75E50 solid;
   padding-bottom: 2px;
   font-weight: bold;
 }
-/* line 81, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 section.channels div.channel img {
   cursor: pointer;
   margin-top: 24px;
   height: 75px;
 }
-/* line 86, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 section.channels div.channel p.label {
   cursor: pointer;
   font-size: 12px;
@@ -90,11 +126,33 @@ section.channels div.channel p.label {
   color: #a2a2a2;
 }
 
-/* line 95, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 section.browse-type {
   text-align: center;
 }
-/* line 97, ../sass/style.scss */
-section.browse-type section-tab {
-  background: white;
+/* line 129, ../sass/style.scss */
+section.browse-type .section-tab {
+  display: inline-block;
+  border-radius: 4px;
+  border: 2px solid #F75E50;
+}
+/* line 133, ../sass/style.scss */
+section.browse-type .section-tab span {
+  display: inline-block;
+  cursor: pointer;
+  width: 115px;
+  height: 34px;
+  line-height: 34px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #F75E50;
+}
+/* line 142, ../sass/style.scss */
+section.browse-type .section-tab span small {
+  opacity: 0.6;
+}
+/* line 145, ../sass/style.scss */
+section.browse-type .section-tab span.current {
+  background: #F75E50;
+  color: white;
 }
