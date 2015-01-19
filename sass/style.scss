@@ -1,10 +1,18 @@
-// Here's where we define some default constants
-// @import "partials/base";
+// defaults
 
 * {
 	margin: 0;
 	padding: 0;
 }
+
+
+body {
+	background: #F7F7F7;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+// variables
 
 $content-width: 690px;
 $page-margin: 60px;
@@ -14,150 +22,11 @@ $channel-icon-height: 75px;
 $gray: #888;
 $base-color: #F75E50;
 
-header, section {
-	width: $content-width;
-	margin: $page-margin auto;
+// pages: use #page-xxxx in <body> for seperate styles
+
+#page-store {
+	@import "pages/store";	
 }
-
-body {
-	background: #F7F7F7;
-	font-family: sans-serif;
-	font-size: 14px;
+#page-home {
+	@import "pages/market";	
 }
-
-header {
-	nav {
-		font-size: 13px;
-		a {
-			color: $gray;
-			letter-spacing: 2px;
-			line-height: 23px;
-			float: right;
-			display: block;
-			margin-left: 36px;
-			text-decoration: none;
-			&:hover {
-				color: darken($gray, 30%);
-			}
-		}
-	}
-}
-
-section.channels {
-	.scroller {
-		z-index: 1;
-		height: $channel-height - 2;
-		display: block;
-		width: 40px;
-		text-align: center;
-		opacity: 0.7;
-		background: rgba(255,255,255,0.4);
-		cursor: pointer;
-		&:hover {
-			opacity: 1;
-			background: rgba(255,255,255,0.7);
-		}
-		img {
-			margin-top: ( $channel-height - 30 ) / 2 ;
-		}
-		&.left {
-			left: 0;
-			position: absolute;
-			top: 0;
-		}
-		&.right {
-			right: 0;
-			position: absolute;
-			top: 0;
-		}
-	}
-	position: relative;
-	width: 100%;
-	height: $channel-height;
-	background: white;
-	border-top: 1px solid #eaeaea;
-	border-bottom: 1px solid #eaeaea;
-  box-sizing: border-box; 
-	div.channel-content {
-		display: block;
-		height: 100%;
-		box-sizing: border-box;
-		-webkit-overflow-scrolling: touch;
-		overflow-x: auto;
-		overflow-y: hidden;
-		white-space: nowrap;
-		padding-left: 40px;
-		padding-right: 40px;
-	}
-	div.channel {
-		&:hover {
-			span {
-				color: darken($gray, 30%);
-			} 
-		}
-		&.current {
-			p.label {
-				font-weight: bold;
-				span {
-					color: #F75E50;
-					border-bottom: 2px #F75E50 solid;
-					padding-bottom: 2px;
-					font-weight: bold;
-				}
-			}
-		}
-		height: 100%;
-		width: $channel-width;
-		display: inline-block;
-		text-align: center;
-		img {
-			cursor: pointer;
-			margin-top: 24px;
-			height: $channel-icon-height;
-		}
-		p.label {
-			cursor: pointer;
-			font-size: 12px;
-			padding-top: 10px;
-			color: lighten($gray, 10%);
-		}
-	}
-}
-
-section.browse-type {
-	text-align: center;
-	.section-tab {
-		display: inline-block;
-		border-radius: 4px;
-		border: 2px solid $base-color;
-		span {
-			display: inline-block;
-			cursor: pointer;
-			width: 115px;
-			height: 34px;
-			line-height: 34px;
-			font-weight: bold;
-			font-size: 12px;
-			color: $base-color;
-			small {
-				opacity: 0.6;
-			}
-			&.current {
-				background: $base-color;
-				color: white;
-			}
-		}
-	}
-}
-
-section.products {
-	
-}
-
-section.events {
-	
-}
-
-
-
-

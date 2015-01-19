@@ -1,28 +1,59 @@
-/* line 4, ../sass/style.scss */
+/* line 3, ../sass/style.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 17, ../sass/style.scss */
-header, section {
-  width: 690px;
-  margin: 60px auto;
-}
-
-/* line 22, ../sass/style.scss */
+/* line 9, ../sass/style.scss */
 body {
   background: #F7F7F7;
   font-family: sans-serif;
   font-size: 14px;
 }
 
-/* line 29, ../sass/style.scss */
-header nav {
+/* line 1, ../sass/pages/_store.scss */
+#page-store header.profile {
+  text-align: center;
+  margin-top: 50px;
+}
+/* line 4, ../sass/pages/_store.scss */
+#page-store header.profile h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: "Songti TC", serif;
+  font-weight: normal;
+  font-size: 29px;
+  line-height: 30px;
+}
+/* line 12, ../sass/pages/_store.scss */
+#page-store header.profile .stats {
+  font-size: 12px;
+  color: #848484;
+  margin-bottom: 20px;
+}
+/* line 17, ../sass/pages/_store.scss */
+#page-store header.profile .about-preview {
+  color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  width: 280px;
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 12px 0;
+  border-top: 1px solid #DADADA;
+  border-bottom: 1px solid #DADADA;
+}
+
+/* line 1, ../sass/pages/_market.scss */
+#page-home header, #page-home section {
+  width: 690px;
+  margin: 60px auto;
+}
+/* line 7, ../sass/pages/_market.scss */
+#page-home header nav {
   font-size: 13px;
 }
-/* line 31, ../sass/style.scss */
-header nav a {
+/* line 9, ../sass/pages/_market.scss */
+#page-home header nav a {
   color: #888;
   letter-spacing: 2px;
   line-height: 23px;
@@ -31,13 +62,12 @@ header nav a {
   margin-left: 36px;
   text-decoration: none;
 }
-/* line 39, ../sass/style.scss */
-header nav a:hover {
+/* line 17, ../sass/pages/_market.scss */
+#page-home header nav a:hover {
   color: #3c3c3c;
 }
-
-/* line 46, ../sass/style.scss */
-section.channels {
+/* line 24, ../sass/pages/_market.scss */
+#page-home section.channels {
   position: relative;
   width: 100%;
   height: 150px;
@@ -46,8 +76,8 @@ section.channels {
   border-bottom: 1px solid #eaeaea;
   box-sizing: border-box;
 }
-/* line 47, ../sass/style.scss */
-section.channels .scroller {
+/* line 25, ../sass/pages/_market.scss */
+#page-home section.channels .scroller {
   z-index: 1;
   height: 148px;
   display: block;
@@ -57,29 +87,29 @@ section.channels .scroller {
   background: rgba(255, 255, 255, 0.4);
   cursor: pointer;
 }
-/* line 56, ../sass/style.scss */
-section.channels .scroller:hover {
+/* line 34, ../sass/pages/_market.scss */
+#page-home section.channels .scroller:hover {
   opacity: 1;
   background: rgba(255, 255, 255, 0.7);
 }
-/* line 60, ../sass/style.scss */
-section.channels .scroller img {
+/* line 38, ../sass/pages/_market.scss */
+#page-home section.channels .scroller img {
   margin-top: 60px;
 }
-/* line 63, ../sass/style.scss */
-section.channels .scroller.left {
+/* line 41, ../sass/pages/_market.scss */
+#page-home section.channels .scroller.left {
   left: 0;
   position: absolute;
   top: 0;
 }
-/* line 68, ../sass/style.scss */
-section.channels .scroller.right {
+/* line 46, ../sass/pages/_market.scss */
+#page-home section.channels .scroller.right {
   right: 0;
   position: absolute;
   top: 0;
 }
-/* line 81, ../sass/style.scss */
-section.channels div.channel-content {
+/* line 59, ../sass/pages/_market.scss */
+#page-home section.channels div.channel-content {
   display: block;
   height: 100%;
   box-sizing: border-box;
@@ -90,54 +120,53 @@ section.channels div.channel-content {
   padding-left: 40px;
   padding-right: 40px;
 }
-/* line 92, ../sass/style.scss */
-section.channels div.channel {
+/* line 70, ../sass/pages/_market.scss */
+#page-home section.channels div.channel {
   height: 100%;
   width: 135px;
   display: inline-block;
   text-align: center;
 }
-/* line 94, ../sass/style.scss */
-section.channels div.channel:hover span {
+/* line 72, ../sass/pages/_market.scss */
+#page-home section.channels div.channel:hover span {
   color: #3c3c3c;
 }
-/* line 99, ../sass/style.scss */
-section.channels div.channel.current p.label {
+/* line 77, ../sass/pages/_market.scss */
+#page-home section.channels div.channel.current p.label {
   font-weight: bold;
 }
-/* line 101, ../sass/style.scss */
-section.channels div.channel.current p.label span {
+/* line 79, ../sass/pages/_market.scss */
+#page-home section.channels div.channel.current p.label span {
   color: #F75E50;
   border-bottom: 2px #F75E50 solid;
   padding-bottom: 2px;
   font-weight: bold;
 }
-/* line 113, ../sass/style.scss */
-section.channels div.channel img {
+/* line 91, ../sass/pages/_market.scss */
+#page-home section.channels div.channel img {
   cursor: pointer;
   margin-top: 24px;
   height: 75px;
 }
-/* line 118, ../sass/style.scss */
-section.channels div.channel p.label {
+/* line 96, ../sass/pages/_market.scss */
+#page-home section.channels div.channel p.label {
   cursor: pointer;
   font-size: 12px;
   padding-top: 10px;
   color: #a2a2a2;
 }
-
-/* line 127, ../sass/style.scss */
-section.browse-type {
+/* line 105, ../sass/pages/_market.scss */
+#page-home section.browse-type {
   text-align: center;
 }
-/* line 129, ../sass/style.scss */
-section.browse-type .section-tab {
+/* line 107, ../sass/pages/_market.scss */
+#page-home section.browse-type .section-tab {
   display: inline-block;
   border-radius: 4px;
   border: 2px solid #F75E50;
 }
-/* line 133, ../sass/style.scss */
-section.browse-type .section-tab span {
+/* line 111, ../sass/pages/_market.scss */
+#page-home section.browse-type .section-tab span {
   display: inline-block;
   cursor: pointer;
   width: 115px;
@@ -147,12 +176,12 @@ section.browse-type .section-tab span {
   font-size: 12px;
   color: #F75E50;
 }
-/* line 142, ../sass/style.scss */
-section.browse-type .section-tab span small {
+/* line 120, ../sass/pages/_market.scss */
+#page-home section.browse-type .section-tab span small {
   opacity: 0.6;
 }
-/* line 145, ../sass/style.scss */
-section.browse-type .section-tab span.current {
+/* line 123, ../sass/pages/_market.scss */
+#page-home section.browse-type .section-tab span.current {
   background: #F75E50;
   color: white;
 }
