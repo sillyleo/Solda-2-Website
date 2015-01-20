@@ -187,7 +187,19 @@ section.tags {
   }
 }
 
-$product-width: 30%;
+
+//Salvattore setting
+
+.products[data-columns]::before {
+	content: '3 .column.size-1of3';
+}
+
+.products a { float: left; }
+.size-1of1 { width: 100%; }
+.size-1of2 { width: 50%; }
+.size-1of3 { width: 33.333%; }
+
+//end settings
 
 section.products {
   margin: 40px auto;
