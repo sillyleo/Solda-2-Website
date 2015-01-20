@@ -1,3 +1,13 @@
+// variables
+
+$content-width: 690px;
+$page-margin: 60px;
+$channel-width: 135px;
+$channel-height: 150px;
+$channel-icon-height: 75px;
+$gray: #888;
+$base-color: #F75E50;
+
 // defaults
 
 * {
@@ -12,15 +22,10 @@ body {
 	font-size: 14px;
 }
 
-// variables
-
-$content-width: 690px;
-$page-margin: 60px;
-$channel-width: 135px;
-$channel-height: 150px;
-$channel-icon-height: 75px;
-$gray: #888;
-$base-color: #F75E50;
+a {
+  text-decoration: none;
+  color: $base-color;
+}
 
 // pages: use #page-xxxx in <body> for seperate styles
 

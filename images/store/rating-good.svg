@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="35px" viewBox="0 0 36 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>rating-good</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-Official-Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Market-Place-3" sketch:type="MSArtboardGroup" transform="translate(-254.000000, -522.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(254.000000, 522.000000)">
+                <g id="rating-good" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-28" fill="#FFF48F" x="0" y="0" width="35.0709939" height="35" rx="30"></rect>
+                    <path d="M9.64452333,15.1666667 C10.9358017,15.1666667 11.9825896,14.1219978 11.9825896,12.8333333 C11.9825896,11.5446689 10.9358017,10.5 9.64452333,10.5 C8.35324492,10.5 7.30645707,11.5446689 7.30645707,12.8333333 C7.30645707,14.1219978 8.35324492,15.1666667 9.64452333,15.1666667 Z" id="Oval-20" fill="#3A3939"></path>
+                    <path d="M24.5496957,14.2916667 C25.8409741,14.2916667 26.887762,13.2469978 26.887762,11.9583333 C26.887762,10.6696689 25.8409741,9.625 24.5496957,9.625 C23.2584173,9.625 22.2116295,10.6696689 22.2116295,11.9583333 C22.2116295,13.2469978 23.2584173,14.2916667 24.5496957,14.2916667 Z" id="Oval-20" fill="#3A3939"></path>
+                    <path d="M10.5401351,23.6705729 L24.6181938,23.848877 C24.6181938,23.848877 24.7683184,27.5311686 22.9345689,28.6553955 C21.1008194,29.7796224 15.1163747,30.2370605 12.7937205,29.0535889 C10.4710667,27.8701171 10.5401351,23.6705729 10.5401351,23.6705729 Z" id="Path-27" fill="#EC474D"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -11,6 +11,11 @@ body {
   font-size: 14px;
 }
 
+/* line 15, ../sass/style.scss */
+a {
+  text-decoration: none;
+}
+
 /* line 1, ../sass/pages/_store.scss */
 #page-store header.profile {
   text-align: center;
@@ -33,6 +38,7 @@ body {
 }
 /* line 17, ../sass/pages/_store.scss */
 #page-store header.profile .about-preview {
+  cursor: pointer;
   color: rgba(0, 0, 0, 0.6);
   display: inline-block;
   width: 280px;
@@ -41,6 +47,40 @@ body {
   padding: 12px 0;
   border-top: 1px solid #DADADA;
   border-bottom: 1px solid #DADADA;
+}
+/* line 18, ../sass/pages/_store.scss */
+#page-store header.profile .about-preview:hover {
+  background: white;
+}
+/* line 30, ../sass/pages/_store.scss */
+#page-store header.profile .about-preview a {
+  color: black;
+}
+/* line 34, ../sass/pages/_store.scss */
+#page-store header.profile .follow {
+  margin: 36px 0;
+  height: 34px;
+  line-height: 34px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #F75E50;
+  display: inline-block;
+  border-radius: 4px;
+  border: 2px solid #F75E50;
+  padding: 0 22px;
+}
+/* line 45, ../sass/pages/_store.scss */
+#page-store header.profile .follow .icon-follow {
+  line-height: 11px;
+  font-size: 11px;
+  position: relative;
+  top: 1px;
+  margin-right: 9px;
+}
+/* line 52, ../sass/pages/_store.scss */
+#page-store header.profile .follow:hover {
+  background: #F75E50;
+  color: white;
 }
 
 /* line 1, ../sass/pages/_market.scss */

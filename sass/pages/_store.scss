@@ -15,6 +15,10 @@ header.profile {
     margin-bottom: 20px;
   }
   .about-preview {
+    &:hover {
+      background: white;
+    }
+    cursor: pointer;
     color: rgba(0,0,0,0.6);
     display: inline-block;
     width: 280px;
@@ -23,5 +27,204 @@ header.profile {
     padding: 12px 0;
     border-top: 1px solid #DADADA;
     border-bottom: 1px solid #DADADA;
+    a {
+      color: black;
+    }
+  }
+  .follow {
+    margin: 36px 0;
+    height: 34px;
+    line-height: 34px;
+    font-weight: bold;
+    font-size: 12px;
+    color: $base-color;
+    display: inline-block;
+    border-radius: 4px;
+    border: 2px solid $base-color;
+    padding: 0 22px;
+    .icon-follow {
+      line-height:  11px;
+      font-size: 11px;
+      position: relative;
+      top: 1px;
+      margin-right: 9px;
+    }
+    &:hover {
+      background: $base-color;
+      color: white;
+    }
+  }
+}
+
+section.about-full {
+  p {
+    margin-bottom: 28px;
+  }
+  h1, .close-about {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    font-family: "Hiragino Sans GB", sans-serif;
+    letter-spacing: 0.2em;
+    margin-bottom: 30px;
+    margin-top: 1px;
+  }
+  .close-about {
+    font-size: 36px;
+    cursor: pointer;
+    color: $gray;
+    top: 30px;
+    left: 30px;
+    position: absolute;
+    display: block;
+    &:hover {
+      color: black;
+    }
+  }
+  .ratings {
+    .good {
+      background: url("../images/store/rating-good.svg") center top no-repeat;
+    }
+    .okay {
+      background: url("../images/store/rating-okay.svg") center top no-repeat;
+    }
+    .bad {
+      background: url("../images/store/rating-bad.svg") center top no-repeat;
+    }
+    strong {
+      width: 100px;
+      padding-top: 48px;
+      display: inline-block;
+      font-weight: normal;
+      span {
+        color: $gray;
+        line-height: 24px;
+        font-weight: normal;
+      }
+      &:nth-child(2n) {
+        border-left: 1px solid lighten($gray, 30%);
+        border-right: 1px solid lighten($gray, 30%);
+      }
+    }
+  }
+  .social-links {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  .store-description {
+    margin-bottom: 2em;
+    color: darken($gray,25%);
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.4;
+    p {
+      margin-bottom: 1em;
+    }
+  }
+  .store-info, .ratings-overview {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  background: rgba(0,0,0,0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  text-align: center;
+//  display: table;
+  display: none;
+  .vertical-align {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .about-content {
+    position: relative;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 80%;
+    height: 80%;
+    max-width: 600px;
+    max-height: 800px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 6px;
+    background: #FAFAFA;
+    display: inline-block;
+  }
+  hr {
+    height: 1px;
+    border: none;
+    background: lighten($gray, 30%);
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 40px;
+  }
+}
+
+section.tags {
+  width: 90%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  line-height: 2;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  a {
+    margin-right: 5px;
+    padding-bottom: 3px;
+    &.current {
+      color: black;
+      border-bottom: 2px solid lighten($gray, 20%);
+    }
+    &:hover {
+      color: black;
+    }
+    color: $gray;
+  }
+}
+
+$product-width: 30%;
+
+section.products {
+  margin: 40px auto;
+  width: 90%;
+  a {
+    cursor: pointer;
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    width: 220px;
+    display: inline-block;
+    margin: 0 8px;
+    height: 330px;
+    span, small {
+      width: 200px;
+      font-size: 12px;
+      padding-left: 10px;
+      padding-right: 10px;
+      display: block;
+      line-height: 1.7;
+    }
+    .product-name {
+      margin-top: 10px;
+      font-size: 14px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      width: 200px;
+      color: black;
+    }
+    .price {
+      color: $base-color;
+    }
+    .location {
+      color: $gray;
+      font-size: 11px;
+    }
   }
 }

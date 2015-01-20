@@ -18,3 +18,11 @@ javascripts_dir = "javascripts"
 # line_comments = false
 
 preferred_syntax = :scss
+
+the_hold_options = {
+  :login => "leolin", # 你的帳號
+  :token => "d2b7c1770c0703f9b3996dd027402105", # 你的 API Key
+  :project => "s", # 專案名稱, 會變成 http://your-project-name.osakihsieh.the-hold.handlino.com/
+  # :project_site_password => "yourprojectpass", # 如果你想要把專案上鎖
+  :host => "http://the-hold.handlino.com/"
+}
