@@ -20,9 +20,6 @@
       <p class="about-preview">
         為週末台北人安排的各種都市生活圈旅行，希望你能夠好放鬆，享受自然給人的療癒。 <a href="#" class="show-more">...關於我</a>
       </p>
-      <p>
-        <a href="#" class="follow"><span class="icon-follow"></span>追蹤我</a>
-      </p>
     </header>
     
     <section class="about-full">
@@ -63,11 +60,18 @@
         <span class="month">12 月</span>
         <span class="date">27</span>
       </div>
-      
-      <h2>京阪神三日遊</h2>
-      <small class="meta">倒數計時 3 天 42 小時</small>
-	  <p><%= jp_lorem_sentences(8) %></p>      
+      <div class="col">
+        <h2><%= jp_lorem_sentence %></h2>
+        <small class="meta">倒數計時 3 天 42 小時</small>        
+      </div>
+	  <hr>
+	  <p class="description"><%= jp_lorem_sentences(8) %></p>      
     </section>
+    
+    <section class="track">
+      <a href="#" class="follow"><span class="icon-follow"></span>追蹤我</a>
+    </section>
+
     
     <section class="tags">
       <a href="#" class="current">全部商品</a>
