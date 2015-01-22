@@ -17,6 +17,10 @@ a {
   color: #F75E50;
 }
 
+/* line 32, ../sass/style.scss */
+#page-store {
+  /* Smartphones (portrait and landscape) ----------- */
+}
 /* line 1, ../sass/pages/_store.scss */
 #page-store header.profile {
   text-align: center;
@@ -178,12 +182,12 @@ a {
   font-size: 15px;
   line-height: 20px;
 }
-/* line 141, ../sass/pages/_store.scss */
+/* line 140, ../sass/pages/_store.scss */
 #page-store section.about-full .vertical-align {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 145, ../sass/pages/_store.scss */
+/* line 144, ../sass/pages/_store.scss */
 #page-store section.about-full .about-content {
   position: relative;
   box-sizing: border-box;
@@ -198,7 +202,7 @@ a {
   background: #FAFAFA;
   display: inline-block;
 }
-/* line 159, ../sass/pages/_store.scss */
+/* line 158, ../sass/pages/_store.scss */
 #page-store section.about-full hr {
   height: 1px;
   border: none;
@@ -207,93 +211,94 @@ a {
   width: 80%;
   margin-bottom: 40px;
 }
-/* line 169, ../sass/pages/_store.scss */
+/* line 168, ../sass/pages/_store.scss */
+#page-store section.broadcast {
+  width: 460px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+/* line 174, ../sass/pages/_store.scss */
 #page-store section.tags {
-  width: 90%;
+  width: 80%;
+  text-align: center;
   box-sizing: border-box;
   padding: 0 10px;
   line-height: 2;
   letter-spacing: 1px;
   margin: 0 auto;
 }
-/* line 176, ../sass/pages/_store.scss */
+/* line 182, ../sass/pages/_store.scss */
 #page-store section.tags a {
   margin-right: 5px;
   padding-bottom: 3px;
+  white-space: nowrap;
   color: #888;
 }
-/* line 179, ../sass/pages/_store.scss */
+/* line 186, ../sass/pages/_store.scss */
 #page-store section.tags a.current {
   color: black;
   border-bottom: 2px solid #bbbbbb;
 }
-/* line 183, ../sass/pages/_store.scss */
+/* line 190, ../sass/pages/_store.scss */
 #page-store section.tags a:hover {
   color: black;
 }
-/* line 193, ../sass/pages/_store.scss */
-#page-store .products[data-columns]::before {
-  content: '3 .column.size-1of3';
+@media only screen and (max-width: 767px) {
+  /* line 203, ../sass/pages/_store.scss */
+  #page-store section.products .product-block {
+    width: 290px;
+  }
 }
-/* line 197, ../sass/pages/_store.scss */
-#page-store .products a {
-  float: left;
+@media only screen and (min-width: 768px) {
+  /* line 212, ../sass/pages/_store.scss */
+  #page-store section.products .product-block {
+    width: 220px;
+  }
 }
-/* line 198, ../sass/pages/_store.scss */
-#page-store .size-1of1 {
-  width: 100%;
-}
-/* line 199, ../sass/pages/_store.scss */
-#page-store .size-1of2 {
-  width: 50%;
-}
-/* line 200, ../sass/pages/_store.scss */
-#page-store .size-1of3 {
-  width: 33.333%;
-}
-/* line 204, ../sass/pages/_store.scss */
+/* line 219, ../sass/pages/_store.scss */
 #page-store section.products {
   margin: 40px auto;
-  width: 90%;
+  box-sizing: border-box;
 }
-/* line 207, ../sass/pages/_store.scss */
-#page-store section.products a {
+/* line 222, ../sass/pages/_store.scss */
+#page-store section.products .product-block {
+  display: block;
+  overflow: auto;
   cursor: pointer;
-  width: 220px;
-  display: inline-block;
-  margin: 0 8px;
-  height: 330px;
+  margin-bottom: 30px;
 }
-/* line 209, ../sass/pages/_store.scss */
-#page-store section.products a img {
+/* line 229, ../sass/pages/_store.scss */
+#page-store section.products .product-block img {
   width: 100%;
   border-radius: 5px;
 }
-/* line 217, ../sass/pages/_store.scss */
-#page-store section.products a span, #page-store section.products a small {
-  width: 200px;
+/* line 233, ../sass/pages/_store.scss */
+#page-store section.products .product-block span, #page-store section.products .product-block small {
+  width: 100%;
+  box-sizing: border-box;
   font-size: 12px;
   padding-left: 10px;
   padding-right: 10px;
   display: block;
   line-height: 1.7;
 }
-/* line 225, ../sass/pages/_store.scss */
-#page-store section.products a .product-name {
+/* line 242, ../sass/pages/_store.scss */
+#page-store section.products .product-block .product-name {
+  width: 100%;
+  box-sizing: border-box;
   margin-top: 10px;
   font-size: 14px;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  width: 200px;
   color: black;
 }
-/* line 234, ../sass/pages/_store.scss */
-#page-store section.products a .price {
+/* line 252, ../sass/pages/_store.scss */
+#page-store section.products .product-block .price {
   color: #F75E50;
 }
-/* line 237, ../sass/pages/_store.scss */
-#page-store section.products a .location {
+/* line 255, ../sass/pages/_store.scss */
+#page-store section.products .product-block .location {
   color: #888;
   font-size: 11px;
 }

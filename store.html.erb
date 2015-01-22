@@ -58,11 +58,15 @@
        </div>
     </section>
     
-<!--
     <section class="broadcast">
+      <div class="time">
+        <span class="month">12 月</span>
+        <span class="date">27</span>
+      </div>
+      <h2>京阪神三日遊</h2>
+      <small class="meta">倒數計時 3 天 42 小時</small>
 	  <p><%= jp_lorem_sentences(8) %></p>      
     </section>
--->
     
     <section class="tags">
       <a href="#" class="current">全部商品</a>
@@ -71,8 +75,9 @@
       <% end %>
     </section>
     
-    <section class="products" class="js-masonry"
-  data-masonry-options='{ "columnWidth": 200, "itemSelector": ".product-block" }'>
+    <section class="products js-masonry"
+  data-masonry-options='{ "gutter": 15 , "itemSelector": ".product-block", "isFitWidth": true}'>
+      <div class="gutter-sizer"></div>
       <a class="product-block">
         <img src="http://lorempixel.com/220/220/technics/1" class="product-image" alt="">
         <span class="product-name">
@@ -166,7 +171,7 @@
         <span class="product-name">
           <%= jp_lorem_sentence %>
         </span>
-        <span class="price">NT$ 3050</span>
+        <span class="price">NT$ 1050</span>
         <small class="location">ALBION x Laduree 大阪店</small>
       </a>      
       <a class="product-block">
