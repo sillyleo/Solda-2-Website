@@ -15,13 +15,14 @@ body {
 	font-family: sans-serif;
 }
 #backdrop {
-	padding: 30px;
+	padding: 5%;
 	position: relative;
 	width: 100%;
 	height: 100%;
 	h1 {
-		font-size: 40px;
-		line-height: 1.5;
+		font-family: HiraginoSansGB-W6, sans-serif;
+		font-size: 112px;
+		line-height: 1.1;
 		letter-spacing: 8px;
 		font-weight: normal;
 		span {
@@ -31,8 +32,8 @@ body {
 			color: black;
 		}
 	}	
-	.content {
-		text-align: center;
+	.description {
+		font-size: 16px;
 	}
 	background: rgba(0, 0, 0, 0.1);
 	position: fixed;
