@@ -143,12 +143,21 @@ hr {
 }
 
 #steps {
+	.three-columns {
+		-webkit-columns: 210px 3;
+		-moz-columns: 210px 3;
+		columns: 210px 3;			
+	}
 	.step {
-		display: block;
-		width: 33.333333%;
-		float: left;
+		-webkit-column-break-inside: avoid;
+		page-break-inside: avoid;
+		break-inside: avoid;
 		padding: 0 0.5em;
-		vertical-align: top;
+		h3:first-child {
+			margin-bottom: 0.5em;
+			-webkit-column-break-before: always;
+			break-before: column;
+		}
 	}
 	span[type='no'] {
 		border-radius: 22px;
@@ -198,8 +207,29 @@ ul.card {
 	-webkit-columns: 300px 2;
 	-moz-columns: 300px 2;
 	columns: 300px 2;
-	h2 {
-		-webkit-column-break-before: always;
-		break-before: column;
+	hr {
+		width: 1px;
+		margin: 0;
+		padding: 0;
+		height: 1px;
+		opacity: 0;
+		-webkit-column-break-after: always;
+		break-after: column;
+	}
+	p {
+		-webkit-column-break-inside: avoid;
+		page-break-inside: avoid;
+		break-inside: avoid;
+
+	}
+}
+
+#support {
+	ol {
+		list-style-position: inside;
+		margin-left: 0em;
+	}
+	.columns {
+		margin-bottom: 1em;
 	}
 }
