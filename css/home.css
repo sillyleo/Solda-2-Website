@@ -192,3 +192,11 @@ ul.card {
 
 footer p {
   text-align: center; }
+
+.slogan {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
+  float: right;
+  position: absolute;
+  right: 260px;
+  top: 0px; }
