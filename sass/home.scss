@@ -96,6 +96,7 @@ p.download {
 		font-size: 20px;
 	}
 	a {
+		border: none;
 		padding: 0;
 		background: none;
 		vertical-align: top;
@@ -135,8 +136,8 @@ header {
 }
 
 hr {
-	margin: 0 auto 3em auto;
-	width: 5%;
+	margin: 4em auto 4em auto;
+	width: 15%;
 	height: 2px;
 	border: none;
 	background: rgba(0,0,0,0.3);
@@ -232,4 +233,9 @@ ul.card {
 	.columns {
 		margin-bottom: 1em;
 	}
+}
+
+footer p {
+	// font-size: 14px;
+	text-align: center;
 }
