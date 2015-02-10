@@ -14,12 +14,14 @@ body {
   background: #fbfbfb; }
 
 a {
-  font-weight: bold;
-  color: white;
+  color: #0095cc;
   text-decoration: none;
-  background: #00a7e6;
-  border-radius: 3px;
-  padding: 0 1px 0 3px; }
+  font-weight: bold;
+  padding: 0 1px 0 3px;
+  border-bottom: 1px dotted #0095cc; }
+  a:hover {
+    background: #0095cc;
+    color: white; }
 
 h1, h2, h3, p, ul, ol {
   margin-bottom: 1em; }
@@ -47,7 +49,7 @@ div.video-sample {
   width: 100%;
   height: 340px;
   border-radius: 6px;
-  margin: 1.5em 0 2.5em 0; }
+  margin: 1em 0 2em 0; }
   div.video-sample h3 {
     border-radius: 6px;
     color: white;
@@ -62,7 +64,7 @@ div.video-sample {
 section {
   overflow: auto;
   clear: both;
-  width: 44em;
+  width: 48em;
   margin: 0 auto;
   padding: 0 2em; }
 
@@ -145,3 +147,22 @@ input.where {
 
 .highlight {
   border-bottom: 1px solid gray; }
+
+ul.card {
+  padding: 0 0; }
+  ul.card li {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+    ul.card li h3 {
+      display: inline-block;
+      margin-right: 1em; }
+
+.columns {
+  -webkit-columns: 300px 2;
+  -moz-columns: 300px 2;
+  columns: 300px 2; }
+  .columns h2 {
+    -webkit-column-break-before: always;
+    break-before: column; }
