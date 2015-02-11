@@ -200,3 +200,29 @@ footer p {
   position: absolute;
   right: 260px;
   top: 0px; }
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@keyframes blink {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+span.cursor {
+  opacity: 0;
+  color: #F75E50;
+  z-index: -1;
+  margin-left: -6px;
+  -webkit-animation: blink 0.8s infinite;
+  animation: blink 0.8s infinite; }
+
+span.typer {
+  z-index: 1;
+  position: relative; }
