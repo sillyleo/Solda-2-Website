@@ -1,3 +1,5 @@
+@import "include-media";
+
 * {
 	margin: 0;
 	padding: 0;
@@ -45,9 +47,6 @@ h3 {
 	font-size: 15px;
 	color: black;
 }
-p {
-	font-size: 15px;
-}
 
 div.video-sample {
 	background: url("../images/homepage/bg1.jpg") center center no-repeat;
@@ -87,7 +86,6 @@ section {
 p.download {
 	text-align: center;
 	margin: 2em auto 3em;
-	width: 30em;
 	.x {
 		color: gray;
 		height: 50px;
@@ -154,6 +152,10 @@ hr {
 		page-break-inside: avoid;
 		break-inside: avoid;
 		padding: 0 0.5em;
+		h3 {
+			position: relative;
+			top: 1px;
+		}
 		h3:first-child {
 			margin-bottom: 0.5em;
 			-webkit-column-break-before: always;
@@ -290,5 +292,54 @@ span.typer {
 	z-index: 1;
 	position: relative;
 }
+.br {
+	display: none;
+}
+/* Inclusive and exclusive operators for a finer control over the intervals */
+@include media("<=768px") {
+	$site-width: 80%;
+	.br {
+		display: inline;
+	}
+	section {
+		width: $site-width;
+		padding: 0px;
+	}
+	.slogan {
+		right: 20px;
+	}
+	#steps {
+		.three-columns {
+			-webkit-columns: 1;
+			-moz-columns:1;
+			columns: 1;			
+		}
+	}
+	p.download {
+		.x {
+			display: none;			
+		}
+		text-align: left;
+		a {
+			margin: 20px 10px 10px 0;
+		}
+	}
+	.columns {
+		-webkit-columns: 1;
+		-moz-columns: 1;
+		columns: 1 ;
+	}
+	body {
+		font-size: 14px;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+}
 
-$site-width: 48em;

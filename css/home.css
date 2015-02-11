@@ -39,9 +39,6 @@ h3 {
   font-size: 15px;
   color: black; }
 
-p {
-  font-size: 15px; }
-
 div.video-sample {
   background: url("../images/homepage/bg1.jpg") center center no-repeat;
   background-size: cover;
@@ -70,8 +67,7 @@ section {
 
 p.download {
   text-align: center;
-  margin: 2em auto 3em;
-  width: 30em; }
+  margin: 2em auto 3em; }
   p.download .x {
     color: gray;
     height: 50px;
@@ -126,6 +122,9 @@ hr {
   page-break-inside: avoid;
   break-inside: avoid;
   padding: 0 0.5em; }
+  #steps .step h3 {
+    position: relative;
+    top: 1px; }
   #steps .step h3:first-child {
     margin-bottom: 0.5em;
     -webkit-column-break-before: always;
@@ -226,3 +225,47 @@ span.cursor {
 span.typer {
   z-index: 1;
   position: relative; }
+
+.br {
+  display: none; }
+
+/* Inclusive and exclusive operators for a finer control over the intervals */
+@media (max-width: 768px) {
+  .br {
+    display: inline; }
+
+  section {
+    width: 80%;
+    padding: 0px; }
+
+  .slogan {
+    right: 20px; }
+
+  #steps .three-columns {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1; }
+
+  p.download {
+    text-align: left; }
+    p.download .x {
+      display: none; }
+    p.download a {
+      margin: 20px 10px 10px 0; }
+
+  .columns {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1; }
+
+  body {
+    font-size: 14px; }
+
+  h1 {
+    font-size: 24px; }
+
+  h2 {
+    font-size: 22px; }
+
+  h3 {
+    font-size: 16px; } }
