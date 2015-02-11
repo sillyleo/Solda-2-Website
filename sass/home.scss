@@ -295,9 +295,24 @@ span.typer {
 .br {
 	display: none;
 }
+
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
 /* Inclusive and exclusive operators for a finer control over the intervals */
-@include media("<=768px") {
-	$site-width: 80%;
+@include media("<=tablet") {
+	body {
+		padding: 60px 0 20px 0;
+		line-height: 1.5;
+	}
+	header {
+		margin-bottom: 40px;
+	}
+	img.solda-logo {
+		width: 100px;
+	}
+	$site-width: 90%;
 	.br {
 		display: inline;
 	}
@@ -316,6 +331,7 @@ span.typer {
 		}
 	}
 	p.download {
+		margin: 1em auto 1em;
 		.x {
 			display: none;			
 		}
@@ -324,22 +340,33 @@ span.typer {
 			margin: 20px 10px 10px 0;
 		}
 	}
+	div.video-sample {
+		height: 180px;
+		h3 {
+			padding-top: 60px;
+		}
+	}
 	.columns {
 		-webkit-columns: 1;
 		-moz-columns: 1;
 		columns: 1 ;
 	}
 	body {
-		font-size: 14px;
+		font-size: 15px;
 	}
 	h1 {
-		font-size: 24px;
+		font-size: 22px;
+		font-weight: bold;
 	}
 	h2 {
-		font-size: 22px;
+		font-size: 20px;
 	}
 	h3 {
-		font-size: 16px;
+		font-size: 18px;
+	}
+	footer p {
+		text-align: left;
+		font-size: 15px;
 	}
 }
 
