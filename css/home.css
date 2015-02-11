@@ -189,6 +189,11 @@ ul.card {
 #support .columns {
   margin-bottom: 1em; }
 
+#questions ul {
+  list-style: none; }
+  #questions ul .answer {
+    display: none; }
+
 footer p {
   text-align: center; }
 
@@ -233,8 +238,16 @@ html {
   -webkit-text-size-adjust: 100%;
   /* Prevent font scaling in landscape while allowing user zoom */ }
 
-/* Inclusive and exclusive operators for a finer control over the intervals */
-@media (max-width: 768px) {
+#questions h3 {
+  cursor: pointer; }
+#questions li p, #questions li ol {
+  display: none; }
+#questions li.show-answer h3 {
+  color: #0095cc; }
+#questions li.show-answer p, #questions li.show-answer ol {
+  display: inline-block; }
+
+@media (max-width: 767px) {
   body {
     padding: 60px 0 20px 0;
     line-height: 1.5; }
@@ -243,7 +256,7 @@ html {
     margin-bottom: 40px; }
 
   img.solda-logo {
-    width: 100px; }
+    width: 80px; }
 
   .br {
     display: inline; }
@@ -286,11 +299,14 @@ html {
     font-weight: bold; }
 
   h2 {
-    font-size: 20px; }
+    font-size: 18px; }
 
   h3 {
-    font-size: 18px; }
+    font-size: 15px; }
 
   footer p {
     text-align: left;
-    font-size: 15px; } }
+    font-size: 15px; }
+
+  #intro h1 {
+    margin-bottom: 0.5em; } }
