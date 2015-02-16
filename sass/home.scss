@@ -249,8 +249,15 @@ ul.card {
 }
 
 footer p {
-	// font-size: 14px;
+	color: rgba(0,0,0,0.3);
 	text-align: center;
+	a {
+		text-decoration: none;
+		font-weight: normal;
+		color: black;
+		border: none;
+		display: inline-block;
+	}
 }
 
 .slogan {
