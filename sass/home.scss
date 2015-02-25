@@ -24,10 +24,10 @@ a {
 	text-decoration: none;
 	font-weight: bold;
 	padding: 0 1px 0 3px;
-	border-bottom: 1px dotted darken(#00BAFF,10%);
 	&:hover {
-		background: darken(#00BAFF,10%);
 		color: white;
+		color: darken(#00BAFF,20%);
+		text-decoration: underline;
 	}
 }
 
@@ -249,6 +249,8 @@ ul.card {
 }
 
 footer p {
+	font-size: 14px;
+	line-height: 2;
 	color: rgba(0,0,0,0.3);
 	text-align: center;
 	a {
@@ -406,7 +408,6 @@ html {
 	}
 	footer p {
 		text-align: left;
-		font-size: 15px;
 	}
 	#intro {
 		h1 {

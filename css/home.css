@@ -17,11 +17,11 @@ a {
   color: #0095cc;
   text-decoration: none;
   font-weight: bold;
-  padding: 0 1px 0 3px;
-  border-bottom: 1px dotted #0095cc; }
+  padding: 0 1px 0 3px; }
   a:hover {
-    background: #0095cc;
-    color: white; }
+    color: white;
+    color: #007099;
+    text-decoration: underline; }
 
 h1, h2, h3, p, ul, ol {
   margin-bottom: 1em; }
@@ -195,6 +195,8 @@ ul.card {
     display: none; }
 
 footer p {
+  font-size: 14px;
+  line-height: 2;
   color: rgba(0, 0, 0, 0.3);
   text-align: center; }
   footer p a {
@@ -312,8 +314,7 @@ html {
     font-size: 15px; }
 
   footer p {
-    text-align: left;
-    font-size: 15px; }
+    text-align: left; }
 
   #intro h1 {
     margin-bottom: 0.5em; } }
