@@ -248,11 +248,12 @@ html {
   /* Prevent font scaling in landscape while allowing user zoom */ }
 
 #questions h3 {
-  cursor: pointer; }
+  cursor: pointer;
+  color: #0095cc; }
 #questions li p, #questions li ol {
   display: none; }
 #questions li.show-answer h3 {
-  color: #0095cc; }
+  color: #004a66; }
 #questions li.show-answer p, #questions li.show-answer ol {
   display: inline-block; }
 

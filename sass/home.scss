@@ -223,7 +223,6 @@ ul.card {
 		-webkit-column-break-inside: avoid;
 		page-break-inside: avoid;
 		break-inside: avoid;
-
 	}
 }
 
@@ -324,6 +323,7 @@ html {
 	
 	h3 {
 		cursor: pointer;
+		color: darken(#00BAFF,10%);
 	}
 
 	li {
@@ -334,7 +334,7 @@ html {
 
 	li.show-answer {
 		h3 {
-			color: darken(#00BAFF,10%);
+			color: darken(#00BAFF,30%);
 		}
 		p, ol {
 			display: inline-block;
