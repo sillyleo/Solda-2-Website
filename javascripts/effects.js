@@ -4,9 +4,7 @@ $(document).ready(function() {
 	$.typer.options.typeSpeed = 100;
 	$.typer.options.clearDelay = 1500;
 
-$('#support li').click(function(){
-	$(this).toggleClass('show-answer');
-});
-// $('#questions li').toggleClass('show-answer');
-
+	$('#support li').click(function(){
+		$(this).toggleClass('show-answer');
+	});
 });
