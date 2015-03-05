@@ -13,12 +13,12 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/config.rb": {
-		"fileType": 131072,
-		"ignore": 0,
+	"\/css\/home.css": {
+		"fileType": 16,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/config.rb",
-		"outputAbbreviatedPath": "\/config.rb",
+		"inputAbbreviatedPath": "\/css\/home.css",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -394,6 +394,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/homepage\/SOLDA.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1394,
+		"inputAbbreviatedPath": "\/images\/homepage\/SOLDA.png",
+		"outputAbbreviatedPath": "\/images\/homepage\/SOLDA.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/store\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -405,37 +416,115 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/javascripts\/imagesloaded.pkgd.min.js": {
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/javascripts\/effects-store.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/javascripts\/imagesloaded.pkgd.min.js",
-		"outputAbbreviatedPath": "\/javascripts\/min\/imagesloaded.pkgd.min-min.js",
+		"inputAbbreviatedPath": "\/javascripts\/effects-store.js",
+		"outputAbbreviatedPath": "\/javascripts\/min\/effects-store-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/javascripts\/masonry.pkgd.min.js": {
+	"\/javascripts\/effects.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/javascripts\/masonry.pkgd.min.js",
-		"outputAbbreviatedPath": "\/javascripts\/min\/masonry.pkgd.min-min.js",
+		"inputAbbreviatedPath": "\/javascripts\/effects.js",
+		"outputAbbreviatedPath": "\/javascripts\/min\/effects-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/sass\/pages\/_store.scss": {
+	"\/javascripts\/jquery.typer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/jquery.typer.js",
+		"outputAbbreviatedPath": "\/javascripts\/min\/jquery.typer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/javascripts\/min\/effects-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/min\/effects-min.js",
+		"outputAbbreviatedPath": "\/javascripts\/min\/min\/effects-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/javascripts\/min\/effects-store-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/min\/effects-store-min.js",
+		"outputAbbreviatedPath": "\/javascripts\/min\/min\/effects-store-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/javascripts\/min\/imagesloaded.pkgd.min-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/min\/imagesloaded.pkgd.min-min.js",
+		"outputAbbreviatedPath": "\/javascripts\/min\/min\/imagesloaded.pkgd.min-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/privacy.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/privacy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/sass\/_include-media.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/pages\/_store.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/_store.css",
+		"inputAbbreviatedPath": "\/sass\/_include-media.scss",
+		"outputAbbreviatedPath": "\/css\/_include-media.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/home.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/home.scss",
+		"outputAbbreviatedPath": "\/css\/home.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -467,11 +556,40 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/term-of-service.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/term-of-service.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webfonts\/ss-social-circle.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webfonts\/ss-social-circle.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webfonts\/ss-social.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webfonts\/ss-social.js",
+		"outputAbbreviatedPath": "\/webfonts\/min\/ss-social-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		}
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Leo Lin",
+"lastSavedByUser": "長逸 林",
 "manualImportLinks": {
 	},
 "projectAttributes": {
