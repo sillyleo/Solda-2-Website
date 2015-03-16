@@ -405,6 +405,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/screen1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 324288,
+		"inputAbbreviatedPath": "\/images\/screen1.jpg",
+		"outputAbbreviatedPath": "\/images\/screen1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/screen2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 763812,
+		"inputAbbreviatedPath": "\/images\/screen2.jpg",
+		"outputAbbreviatedPath": "\/images\/screen2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/screen3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 187026,
+		"inputAbbreviatedPath": "\/images\/screen3.jpg",
+		"outputAbbreviatedPath": "\/images\/screen3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/screen4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 228477,
+		"inputAbbreviatedPath": "\/images\/screen4.jpg",
+		"outputAbbreviatedPath": "\/images\/screen4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/screen5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 372258,
+		"inputAbbreviatedPath": "\/images\/screen5.jpg",
+		"outputAbbreviatedPath": "\/images\/screen5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/store\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -412,6 +467,61 @@
 		"initialSize": 8606,
 		"inputAbbreviatedPath": "\/images\/store\/logo.png",
 		"outputAbbreviatedPath": "\/images\/store\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumb-screen1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61640,
+		"inputAbbreviatedPath": "\/images\/thumb-screen1.jpg",
+		"outputAbbreviatedPath": "\/images\/thumb-screen1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumb-screen2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121178,
+		"inputAbbreviatedPath": "\/images\/thumb-screen2.jpg",
+		"outputAbbreviatedPath": "\/images\/thumb-screen2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumb-screen3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47179,
+		"inputAbbreviatedPath": "\/images\/thumb-screen3.jpg",
+		"outputAbbreviatedPath": "\/images\/thumb-screen3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumb-screen4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48012,
+		"inputAbbreviatedPath": "\/images\/thumb-screen4.jpg",
+		"outputAbbreviatedPath": "\/images\/thumb-screen4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumb-screen5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65215,
+		"inputAbbreviatedPath": "\/images\/thumb-screen5.jpg",
+		"outputAbbreviatedPath": "\/images\/thumb-screen5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -442,6 +552,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/javascripts\/effects.js",
 		"outputAbbreviatedPath": "\/javascripts\/min\/effects-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/javascripts\/imagelightbox.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/imagelightbox.min.js",
+		"outputAbbreviatedPath": "\/javascripts\/min\/imagelightbox.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -497,6 +618,18 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/privacy.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
