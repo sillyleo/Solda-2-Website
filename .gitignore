@@ -1,2 +1,5 @@
 .sass-cache
 *.codekit
+.sass-cache/*
+*.scssc
+=
